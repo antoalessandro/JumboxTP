@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         // Inicializar productos antes de mostrar el menú
         GestorProductos.inicializarProductos();
-
+        //soy anto
         ControladorUsuario controlador = new ControladorUsuario();
         ManejadorInterfazUsuario interfaz = new ManejadorInterfazUsuario(controlador);
 
