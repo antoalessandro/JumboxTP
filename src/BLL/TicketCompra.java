@@ -13,6 +13,10 @@ public class TicketCompra {
         this.metodoPago = metodoPago;
     }
 
+    public double getMontoTotal() {
+        return montoTotal;
+    }
+
     @Override
     public String toString() {
         return "Ticket de compra - Fecha: " + fecha + " - Monto: $" + montoTotal + " - Pago: " + metodoPago;
